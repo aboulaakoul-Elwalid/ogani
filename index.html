@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="zxx">
-
-<head>
+<html lang="zxx"><head>
     <meta charset="UTF-8">
     <meta name="description" content="Ogani Template">
     <meta name="keywords" content="Ogani, unica, creative, html">
@@ -10,7 +7,7 @@
     <title>Ogani | Template</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&amp;display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -25,8 +22,8 @@
 
 <body>
     <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
+    <div id="preloder" style="display: none;">
+        <div class="loader" style="display: none;"></div>
     </div>
 
     <!-- Humberger Begin -->
@@ -72,7 +69,22 @@
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
-        <div id="mobile-menu-wrap"></div>
+        <div id="mobile-menu-wrap"><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><nav class="slicknav_nav slicknav_hidden" style="display: none;" aria-hidden="true" role="menu">
+            <ul>
+                <li class="active"><a href="./index.html" role="menuitem">Home</a></li>
+                <li><a href="./shop-grid.html" role="menuitem">Shop</a></li>
+                <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"><a href="#">Pages</a>
+                    <span class="slicknav_arrow">►</span></a><ul class="header__menu__dropdown slicknav_hidden" role="menu" style="display: none;" aria-hidden="true">
+                        <li><a href="./shop-details.html" role="menuitem" tabindex="-1">Shop Details</a></li>
+                        <li><a href="./shoping-cart.html" role="menuitem" tabindex="-1">Shoping Cart</a></li>
+                        <li><a href="./checkout.html" role="menuitem" tabindex="-1">Check Out</a></li>
+                        <li><a href="./blog-details.html" role="menuitem" tabindex="-1">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="./blog.html" role="menuitem">Blog</a></li>
+                <li><a href="./contact.html" role="menuitem">Contact</a></li>
+            </ul>
+        </nav></div></div>
         <div class="header__top__right__social">
             <a href="#"><i class="fa fa-facebook"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
@@ -181,13 +193,13 @@
                         <ul>
                             <li><a href="#">Fresh Meat</a></li>
                             <li><a href="#">Vegetables</a></li>
-                            <li><a href="#">Fruit & Nut Gifts</a></li>
+                            <li><a href="#">Fruit &amp; Nut Gifts</a></li>
                             <li><a href="#">Fresh Berries</a></li>
                             <li><a href="#">Ocean Foods</a></li>
-                            <li><a href="#">Butter & Eggs</a></li>
+                            <li><a href="#">Butter &amp; Eggs</a></li>
                             <li><a href="#">Fastfood</a></li>
                             <li><a href="#">Fresh Onion</a></li>
-                            <li><a href="#">Papayaya & Crisps</a></li>
+                            <li><a href="#">Papayaya &amp; Crisps</a></li>
                             <li><a href="#">Oatmeal</a></li>
                             <li><a href="#">Fresh Bananas</a></li>
                         </ul>
@@ -215,10 +227,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero__item set-bg" data-setbg="img/hero/banner.jpg">
+                    <div class="hero__item set-bg" data-setbg="img/hero/banner.jpg" style="background-image: url(&quot;img/hero/banner.jpg&quot;);">
                         <div class="hero__text">
                             <span>FRUIT FRESH</span>
-                            <h2>Vegetable <br />100% Organic</h2>
+                            <h2>Vegetable <br>100% Organic</h2>
                             <p>Free Pickup and Delivery Available</p>
                             <a href="#" class="primary-btn">SHOP NOW</a>
                         </div>
@@ -233,33 +245,57 @@
     <section class="categories">
         <div class="container">
             <div class="row">
-                <div class="categories__slider owl-carousel">
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-1.jpg">
-                            <h5><a href="#">Fresh Fruit</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-2.jpg">
-                            <h5><a href="#">Dried Fruit</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg">
+                <div class="categories__slider owl-carousel owl-loaded owl-drag">
+                    
+                    
+                    
+                    
+                    
+                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1648px, 0px, 0px); transition: all; width: 4532px;"><div class="owl-item cloned" style="width: 412px;"><div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg" style="background-image: url(&quot;img/categories/cat-3.jpg&quot;);">
                             <h5><a href="#">Vegetables</a></h5>
                         </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-4.jpg">
+                    </div></div><div class="owl-item cloned" style="width: 412px;"><div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-4.jpg" style="background-image: url(&quot;img/categories/cat-4.jpg&quot;);">
                             <h5><a href="#">drink fruits</a></h5>
                         </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-5.jpg">
+                    </div></div><div class="owl-item cloned" style="width: 412px;"><div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-5.jpg" style="background-image: url(&quot;img/categories/cat-5.jpg&quot;);">
                             <h5><a href="#">drink fruits</a></h5>
                         </div>
-                    </div>
-                </div>
+                    </div></div><div class="owl-item animated owl-animated-out fadeOut" style="width: 412px; left: 412px;"><div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-1.jpg" style="background-image: url(&quot;img/categories/cat-1.jpg&quot;);">
+                            <h5><a href="#">Fresh Fruit</a></h5>
+                        </div>
+                    </div></div><div class="owl-item animated owl-animated-in fadeIn active" style="width: 412px;"><div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-2.jpg" style="background-image: url(&quot;img/categories/cat-2.jpg&quot;);">
+                            <h5><a href="#">Dried Fruit</a></h5>
+                        </div>
+                    </div></div><div class="owl-item" style="width: 412px;"><div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg" style="background-image: url(&quot;img/categories/cat-3.jpg&quot;);">
+                            <h5><a href="#">Vegetables</a></h5>
+                        </div>
+                    </div></div><div class="owl-item" style="width: 412px;"><div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-4.jpg" style="background-image: url(&quot;img/categories/cat-4.jpg&quot;);">
+                            <h5><a href="#">drink fruits</a></h5>
+                        </div>
+                    </div></div><div class="owl-item" style="width: 412px;"><div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-5.jpg" style="background-image: url(&quot;img/categories/cat-5.jpg&quot;);">
+                            <h5><a href="#">drink fruits</a></h5>
+                        </div>
+                    </div></div><div class="owl-item cloned" style="width: 412px;"><div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-1.jpg" style="background-image: url(&quot;img/categories/cat-1.jpg&quot;);">
+                            <h5><a href="#">Fresh Fruit</a></h5>
+                        </div>
+                    </div></div><div class="owl-item animated owl-animated-in fadeIn cloned" style="width: 412px;"><div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-2.jpg" style="background-image: url(&quot;img/categories/cat-2.jpg&quot;);">
+                            <h5><a href="#">Dried Fruit</a></h5>
+                        </div>
+                    </div></div><div class="owl-item cloned" style="width: 412px;"><div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg" style="background-image: url(&quot;img/categories/cat-3.jpg&quot;);">
+                            <h5><a href="#">Vegetables</a></h5>
+                        </div>
+                    </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span class="fa fa-angle-left"><span></span></span></button><button type="button" role="presentation" class="owl-next"><span class="fa fa-angle-right"><span></span></span></button></div><div class="owl-dots disabled"></div></div>
             </div>
         </div>
     </section>
@@ -284,10 +320,10 @@
                     </div>
                 </div>
             </div>
-            <div class="row featured__filter">
+            <div class="row featured__filter" id="MixItUpF98421">
                 <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-1.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-1.jpg" style="background-image: url(&quot;img/featured/feature-1.jpg&quot;);">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -302,7 +338,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-2.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-2.jpg" style="background-image: url(&quot;img/featured/feature-2.jpg&quot;);">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -317,7 +353,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-3.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-3.jpg" style="background-image: url(&quot;img/featured/feature-3.jpg&quot;);">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -332,7 +368,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-4.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-4.jpg" style="background-image: url(&quot;img/featured/feature-4.jpg&quot;);">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -347,7 +383,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-5.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-5.jpg" style="background-image: url(&quot;img/featured/feature-5.jpg&quot;);">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -362,7 +398,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-6.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-6.jpg" style="background-image: url(&quot;img/featured/feature-6.jpg&quot;);">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -377,7 +413,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-7.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-7.jpg" style="background-image: url(&quot;img/featured/feature-7.jpg&quot;);">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -392,7 +428,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood vegetables">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-8.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-8.jpg" style="background-image: url(&quot;img/featured/feature-8.jpg&quot;);">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -436,8 +472,10 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="latest-product__text">
                         <h4>Latest Products</h4>
-                        <div class="latest-product__slider owl-carousel">
-                            <div class="latest-prdouct__slider__item">
+                        <div class="latest-product__slider owl-carousel owl-loaded owl-drag">
+                            
+                            
+                        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1146px, 0px, 0px); transition: 1.2s; width: 2292px;"><div class="owl-item cloned" style="width: 382px;"><div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
                                         <img src="img/latest-product/lp-1.jpg" alt="">
@@ -465,8 +503,7 @@
                                         <span>$30.00</span>
                                     </div>
                                 </a>
-                            </div>
-                            <div class="latest-prdouct__slider__item">
+                            </div></div><div class="owl-item cloned" style="width: 382px;"><div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
                                         <img src="img/latest-product/lp-1.jpg" alt="">
@@ -494,15 +531,128 @@
                                         <span>$30.00</span>
                                     </div>
                                 </a>
-                            </div>
-                        </div>
+                            </div></div><div class="owl-item" style="width: 382px;"><div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                            </div></div><div class="owl-item active" style="width: 382px;"><div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                            </div></div><div class="owl-item cloned" style="width: 382px;"><div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                            </div></div><div class="owl-item cloned" style="width: 382px;"><div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                            </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span class="fa fa-angle-left"><span></span></span></button><button type="button" role="presentation" class="owl-next"><span class="fa fa-angle-right"><span></span></span></button></div><div class="owl-dots disabled"></div></div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="latest-product__text">
                         <h4>Top Rated Products</h4>
-                        <div class="latest-product__slider owl-carousel">
-                            <div class="latest-prdouct__slider__item">
+                        <div class="latest-product__slider owl-carousel owl-loaded owl-drag">
+                            
+                            
+                        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1146px, 0px, 0px); transition: 1.2s; width: 2292px;"><div class="owl-item cloned" style="width: 382px;"><div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
                                         <img src="img/latest-product/lp-1.jpg" alt="">
@@ -530,8 +680,7 @@
                                         <span>$30.00</span>
                                     </div>
                                 </a>
-                            </div>
-                            <div class="latest-prdouct__slider__item">
+                            </div></div><div class="owl-item cloned" style="width: 382px;"><div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
                                         <img src="img/latest-product/lp-1.jpg" alt="">
@@ -559,15 +708,128 @@
                                         <span>$30.00</span>
                                     </div>
                                 </a>
-                            </div>
-                        </div>
+                            </div></div><div class="owl-item" style="width: 382px;"><div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                            </div></div><div class="owl-item active" style="width: 382px;"><div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                            </div></div><div class="owl-item cloned" style="width: 382px;"><div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                            </div></div><div class="owl-item cloned" style="width: 382px;"><div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                            </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span class="fa fa-angle-left"><span></span></span></button><button type="button" role="presentation" class="owl-next"><span class="fa fa-angle-right"><span></span></span></button></div><div class="owl-dots disabled"></div></div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="latest-product__text">
                         <h4>Review Products</h4>
-                        <div class="latest-product__slider owl-carousel">
-                            <div class="latest-prdouct__slider__item">
+                        <div class="latest-product__slider owl-carousel owl-loaded owl-drag">
+                            
+                            
+                        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1146px, 0px, 0px); transition: 1.2s; width: 2292px;"><div class="owl-item cloned" style="width: 382px;"><div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
                                         <img src="img/latest-product/lp-1.jpg" alt="">
@@ -595,8 +857,7 @@
                                         <span>$30.00</span>
                                     </div>
                                 </a>
-                            </div>
-                            <div class="latest-prdouct__slider__item">
+                            </div></div><div class="owl-item cloned" style="width: 382px;"><div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
                                         <img src="img/latest-product/lp-1.jpg" alt="">
@@ -624,8 +885,119 @@
                                         <span>$30.00</span>
                                     </div>
                                 </a>
-                            </div>
-                        </div>
+                            </div></div><div class="owl-item" style="width: 382px;"><div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                            </div></div><div class="owl-item active" style="width: 382px;"><div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                            </div></div><div class="owl-item cloned" style="width: 382px;"><div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                            </div></div><div class="owl-item cloned" style="width: 382px;"><div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Crab Pool Security</h6>
+                                        <span>$30.00</span>
+                                    </div>
+                                </a>
+                            </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span class="fa fa-angle-left"><span></span></span></button><button type="button" role="presentation" class="owl-next"><span class="fa fa-angle-right"><span></span></span></button></div><div class="owl-dots disabled"></div></div>
                     </div>
                 </div>
             </div>
@@ -752,7 +1124,7 @@
                 <div class="col-lg-12">
                     <div class="footer__copyright">
                         <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Copyright ©<script>document.write(new Date().getFullYear());</script>2024 All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
                         <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
                     </div>
@@ -774,6 +1146,44 @@
 
 
 
-</body>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 
-</html>
+
+</body></html>
